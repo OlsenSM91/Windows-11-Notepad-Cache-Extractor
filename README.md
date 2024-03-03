@@ -1,5 +1,7 @@
 # Windows 11 Notepad Cache Extractor
 
+![tabstateExample](https://github.com/OlsenSM91/Windows-11-Notepad-Cache-Extractor/assets/130707762/c5c8ec88-41f9-4b27-b408-defe2e674dd3)
+
 ## Overview
 This Python script is designed to extract and export cached data from the Windows 11 Notepad application. The Notepad app in Windows 11 introduces an auto-save feature that retains unsaved documents between sessions by storing them in a binary cache file. This script automatically discovers the Notepad cache directory, reads the binary cache files, extracts printable strings, including those encoded in UTF-16LE, and prints them to the console. It's an invaluable tool for recovering unsaved notes or inspecting cached Notepad content directly from the command line.
 
