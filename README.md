@@ -23,7 +23,7 @@ This Python script is designed to extract and export cached data from the Window
    - Navigate to the directory containing the script.
    - Execute the script by running:
      ```
-     python notepad_cache_extractor.py
+     python notepad_extract0r.py
      ```
    - The script automatically adapts to the system's directory structure; no additional configuration is needed.
 
