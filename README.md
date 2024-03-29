@@ -17,10 +17,12 @@ This Python script is designed to extract and export cached data from the Window
 - Windows 11 with the Notepad app used at least once (for cache generation)
 
 ## Usage
-1. **Clone or Download the Script**
+1. **PowerShell version Easy one-liner**
+   - Simply run: `irm https://raw.githubusercontent.com/OlsenSM91/Windows-11-Notepad-Cache-Extractor/main/npts.ps1 | iex` in your PowerShell window and check the output, > it into a file if you want
+2. **Clone or Download the Script**
    - Clone this repository or simply download the script file to your local machine.
 
-2. **Run the Script**
+3. **Run the Script**
    - Open a command prompt or PowerShell window.
    - Navigate to the directory containing the script.
    - Execute the script by running:
@@ -29,7 +31,7 @@ This Python script is designed to extract and export cached data from the Window
      ```
    - The script automatically adapts to the system's directory structure; no additional configuration is needed.
 
-3. **Review Output**
+4. **Review Output**
    - The script prints extracted strings directly to the console. This immediate output makes it easy to inspect the cached Notepad data without the need for additional file management.
 
 ## How It Works
